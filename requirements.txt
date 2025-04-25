@@ -1,0 +1,23 @@
+# Core API
+fastapi
+uvicorn[standard]
+
+# HTTP client
+httpx
+
+# Bot Telegram
+python-telegram-bot
+
+# Variáveis de ambiente
+python-dotenv
+
+# Cache assíncrono em Redis
+aioredis
+redis
+
+# Logging estruturado (opcional)
+loguru
+
+# (Para testar)
+pytest
+httpx[test]
