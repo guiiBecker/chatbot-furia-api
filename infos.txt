@@ -1,1 +1,6 @@
 ID_furia_cs=124530
+ID_furia_r6=127596
+
+
+
+https://api.pandascore.co/r6siege/matches?Filter[id]=127596

@@ -1,17 +1,18 @@
+#ARQUIVO PARA BUSCA DE TIMES, FIZ DESTA MANEIRA POIS QUERO USAR POSTERIORMENTE PARA PROJETO POSSOAL
+
 import os
 import asyncio
 import httpx
 from dotenv import load_dotenv, find_dotenv
 
-# 1) Carrega o .env (procura automaticamente na hierarquia de pastas)
 load_dotenv(find_dotenv())
 
 API_TOKEN = os.getenv("PANDASCORE_TOKEN")
 if not API_TOKEN:
     raise RuntimeError("PANDASCORE_TOKEN não definido. Verifique seu .env ou exportação.")
 
-BASE_URL = "https://api.pandascore.co/csgo/teams"
-BASE_URL = "https://api.pandascore.co/csgo/teams"
+#BASE_URL = "https://api.pandascore.co/csgo/teams"
+#BASE_URL = "https://api.pandascore.co/r6siege/teams"
 
 async def get_all_teams():
     teams = []

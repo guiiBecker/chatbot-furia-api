@@ -7,7 +7,7 @@ def get_token():
     token = os.getenv("PANDASCORE_TOKEN")
     if not token:
         raise RuntimeError("PANDASCORE_TOKEN não definido!")
-    print(token)
+
     return token
 
 
